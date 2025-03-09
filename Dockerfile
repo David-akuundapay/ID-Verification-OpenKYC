@@ -8,7 +8,7 @@ COPY ./admin /usr/share/nginx/html
 # COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
 # Exposition du port 80 pour accéder au serveur web
-EXPOSE 80
+EXPOSE 4000
 
 # Commande par défaut pour démarrer Nginx
 CMD ["nginx", "-g", "daemon off;"]
